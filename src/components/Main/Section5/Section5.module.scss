@@ -1,0 +1,48 @@
+.section5 {
+  &__container {
+    max-width: 1236px;
+    margin: 0 auto;
+  }
+
+  &__inner {
+    margin-top: 156px;
+    margin-bottom: 27px;
+    background-image: url("../../../assets/img/lastgirl.jpg");
+    background-repeat: no-repeat;
+    height: 62vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    h2 {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 600;
+      font-size: 24px;
+      letter-spacing: 0.35em;
+      color: #FFFFFF;
+    }
+
+    button {
+      margin-top: 41px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 19px;
+      color: #000;
+      padding: 20px 40px;
+      background-color: #fff;
+      border: 0;
+      transition: background-color 0.4s ease-in-out;
+
+      &:hover {
+        cursor: pointer;
+        background-color: grey;
+      }
+    }
+  }
+
+  &__content {
+    margin-bottom: 41px;
+    margin-right: 41px;
+  }
+}

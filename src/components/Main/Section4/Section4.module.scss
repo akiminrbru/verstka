@@ -1,0 +1,47 @@
+.section4 {
+
+  &__container {
+    max-width: 1236px;
+    margin: 0 auto;
+  }
+
+  &__inner {
+
+    h2 {
+      margin-top: 73px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 49px;
+      text-align: center;
+      color: #000000;
+    }
+  }
+
+  &__images {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__text {
+    margin-top: 16px;
+    margin-left: 32px;
+
+    span {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 16px;
+      color: #848484;
+    }
+
+    p {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 19px;
+      color: #000000;
+    }
+  }
+}
